@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'mysql2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -18,10 +19,6 @@ gem 'haml-rails'
 
 group :development do
   gem 'thin'
-end
-
-group :production do
-  gem 'mysql2'
 end
 
 gem 'bluecloth'

@@ -1,15 +1,16 @@
 load 'deploy/assets'
 require 'bundler/capistrano'
 
-host = "codeatsix.infinum.hr"
+host = "codeatsix.infinum.co"
 
-set :application, "codeatsix.infinum.hr"
-set :repository,  "git@github.com:psyburn/codeatsix.git"
-set :deploy_to, "/var/www/c/codeatsix.infinum.hr" 
+set :application, "codeatsix.infinum.co"
+set :repository,  "git@github.com:infinum/codeatsix.git"
+set :deploy_to, "/home/legacy/www/c/codeatsix.infinum.co" 
 
 set :scm, :git
-set :user, "www-data"
+set :user, "legacy"
 set :use_sudo, false
+ser :port, 22219
 
 set :branch, "master"
 set :deploy_via, :remote_cache
