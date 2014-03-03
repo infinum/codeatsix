@@ -10,7 +10,6 @@ gem 'sqlite3'
 gem 'json', '>= 1.7.7'
 gem 'execjs'
 gem 'capistrano'
-gem 'libv8'
 
 gem 'rails-boilerplate'
 gem 'jquery-rails'
@@ -23,7 +22,6 @@ end
 
 gem 'bluecloth'
 gem 'redcarpet'
-gem 'therubyracer'
 gem 'annotate', '~> 2.4.1.beta' 
 
 # Gems used only for assets and not required
