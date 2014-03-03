@@ -10,7 +10,7 @@ set :deploy_to, "/home/legacy/www/c/codeatsix.infinum.co"
 set :scm, :git
 set :user, "legacy"
 set :use_sudo, false
-ser :port, 22219
+set :port, 22219
 
 set :branch, "master"
 set :deploy_via, :remote_cache
